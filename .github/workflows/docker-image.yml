@@ -1,0 +1,21 @@
+name: Build and push Docker Image 
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build and push the Docker image
+      run: |
+        echo "${{secrets.DOCKERPASS}}" | docker login -u "abingoutham" --password-stdin
+        docker build -t abingoutham/fastapi_app:v2 .
+        docker push abingoutham/fastapi_app:v2
