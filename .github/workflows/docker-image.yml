@@ -17,5 +17,5 @@ jobs:
     - name: Build and push the Docker image
       run: |
         echo "${{secrets.DOCKERPASS}}" | docker login -u "abingoutham" --password-stdin
-        docker build -t abingoutham/fastapi_app:v2 .
-        docker push abingoutham/fastapi_app:v2
+        docker build -t abingoutham/fastapi_app:github_actions .
+        docker push abingoutham/fastapi_app:github_actions
