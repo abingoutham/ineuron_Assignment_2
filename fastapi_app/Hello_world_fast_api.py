@@ -4,5 +4,5 @@ app=FastAPI()
 
 @app.get("/")
 def sample():
-    return ("Hello world")
+    return ("Hello world!")
 
