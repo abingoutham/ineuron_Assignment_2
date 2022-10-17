@@ -108,3 +108,17 @@
 
 
 
+##### 14. docker rm  container-name or container-id
+
+###### To remove the given container
+
+![](Images/remove_container.JPG)
+
+
+
+##### 15. docker image rm image-name or image-id
+
+###### To remove the given docker image
+
+![](Images/delete_docker_imageJPG.JPG)
+
