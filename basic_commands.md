@@ -122,3 +122,18 @@
 
 ![](Images/delete_docker_imageJPG.JPG)
 
+
+
+##### 16. docker image rmi image-id_1   image-id_2 ...
+
+###### To remove multiple docker images
+
+![](Images/deleting_multiple_images_new.JPG)
+
+
+
+##### 17. docker image rm image-name or image-id  -f
+
+###### To forcefully remove a docker image along with all its tagged versions
+
+![](Images/force_delete_docker_image.JPG)
