@@ -84,8 +84,27 @@
 
 
 
-##### 10. docker unpause  container-name or container-id
+##### 11. docker unpause  container-name or container-id
 
 ###### To resume the given container
 
 ![](Images/unpause_container.JPG)
+
+
+
+##### 12. docker stop  container-name or container-id
+
+###### To stop the given container
+
+![](Images/stopping_container.JPG)
+
+
+
+##### 13. docker start  container-name or container-id
+
+###### To start the given container
+
+![](Images/starting_container.JPG)
+
+
+
