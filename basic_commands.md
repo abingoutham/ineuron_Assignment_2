@@ -76,3 +76,16 @@
 
 
 
+##### 10. docker pause  container-name or container-id
+
+###### To pause the given container
+
+![](Images/pause_container.JPG)
+
+
+
+##### 10. docker unpause  container-name or container-id
+
+###### To resume the given container
+
+![](Images/unpause_container.JPG)
